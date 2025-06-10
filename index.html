@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="page-container">
+        <div class="background-slideshow">
+            <div class="background-slide"></div>
+            <div class="background-slide"></div>
+            <div class="background-slide"></div>
+            <div class="background-slide"></div>
+            <div class="background-slide"></div>
+            <div class="background-slide"></div>
+            <div class="background-slide"></div>
+        </div>
+
+        <div class="weather-wrapper">
+            <h2 id="weather-type">Weather</h2>
+            <div id="weather-icon" class="weather-icon"></div>
+            <div class="search-container">
+                <input type="text" id="locationInput" placeholder="Enter city name..." autocomplete="off">
+                <button id="search-btn">Search</button>
+            </div>
+            <div id="weatherInfo" class="weather-info"></div>
+            <div class="datetime" id="datetime"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
