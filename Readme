@@ -1,39 +1,39 @@
-# 🌦️ Animated Weather App
+🌦️ Animated Weather App
 
 This project is a sleek, responsive Weather App built with HTML, CSS, and JavaScript. It displays current weather conditions for any searched city using the OpenWeatherMap API. The background features a dynamic slideshow of weather-related images to enhance the visual appeal.
 
-## 🚀 Features
+Features
 
-- 🌍 Live weather data using **OpenWeatherMap API**
-- 📍 Detect weather using **geolocation**
-- 🔍 Search weather by **city name**
-- 📷 Beautiful **animated background slideshow**
-- 🌤️ Weather icons based on conditions
-- 🕒 Live **date and time** display
-- 📱 Fully responsive and mobile-friendly
-- 🔄 Smooth animations and transitions
+🌍 Live weather data using **OpenWeatherMap API**
+📍 Detect weather using **geolocation**
+🔍 Search weather by **city name**
+📷 Beautiful **animated background slideshow**
+🌤️ Weather icons based on conditions
+🕒 Live **date and time** display
+📱 Fully responsive and mobile-friendly
+🔄 Smooth animations and transitions
 
-## 📸 Demo
+Demo
 
 ![Weather App Preview](https://user-images.githubusercontent.com/your-demo-image.png)  
 *Replace this URL with your actual image/screenshot if available*
 
-## 🛠️ Technologies Used
+🛠️ Technologies Used
 
 - HTML5
 - CSS3 (Animations, Responsive Design)
 - JavaScript (ES6)
 - OpenWeatherMap API
 
-## 🔑 Getting Started
+🔑 Getting Started
 
-### Prerequisites
+Prerequisites
 
 - Web browser
 - Internet connection
 - Basic understanding of web development
 
-### Setup Instructions
+Setup Instructions
 
 1. **Clone this repository**
 
