@@ -1,0 +1,95 @@
+# 🌦️ Animated Weather App
+
+This project is a sleek, responsive Weather App built with HTML, CSS, and JavaScript. It displays current weather conditions for any searched city using the OpenWeatherMap API. The background features a dynamic slideshow of weather-related images to enhance the visual appeal.
+
+## 🚀 Features
+
+- 🌍 Live weather data using **OpenWeatherMap API**
+- 📍 Detect weather using **geolocation**
+- 🔍 Search weather by **city name**
+- 📷 Beautiful **animated background slideshow**
+- 🌤️ Weather icons based on conditions
+- 🕒 Live **date and time** display
+- 📱 Fully responsive and mobile-friendly
+- 🔄 Smooth animations and transitions
+
+## 📸 Demo
+
+![Weather App Preview](https://user-images.githubusercontent.com/your-demo-image.png)  
+*Replace this URL with your actual image/screenshot if available*
+
+## 🛠️ Technologies Used
+
+- HTML5
+- CSS3 (Animations, Responsive Design)
+- JavaScript (ES6)
+- OpenWeatherMap API
+
+## 🔑 Getting Started
+
+### Prerequisites
+
+- Web browser
+- Internet connection
+- Basic understanding of web development
+
+### Setup Instructions
+
+1. **Clone this repository**
+
+```bash
+git clone https://github.com/your-username/weather-app.git
+cd weather-app
+2.Obtain OpenWeatherMap API Key
+
+Go to https://openweathermap.org/api
+
+Sign up and get your API key
+
+3.Insert your API key
+
+In script.js, replace the placeholder:
+const apiKey = "YOUR_API_KEY_HERE";
+4.Open the project
+
+Simply open index.html in your browser.
+
+📂 Project Structure
+weather-app/
+│
+├── index.html         # Main HTML file
+├── styles.css         # Styling and responsive design
+├── script.js          # JavaScript logic
+└── README.md          # This file
+How It Works:
+On page load, the app attempts to detect your location using the Geolocation API.
+
+If successful, it fetches and displays the current weather.
+
+Users can also enter a city manually to search for weather data.
+
+Background images animate every 4 seconds to create a slideshow effect.
+
+Weather info updates with animated transitions.
+
+Customization Tips:
+Replace or add new images in the .background-slide classes to change the slideshow.
+
+Modify or extend the weatherIcons object in script.js to support more weather types.
+
+Enhance with additional features like hourly forecasts, air quality, or unit toggles (°C/°F)
+
+Known Issues:
+Geolocation might not work in some browsers without HTTPS.
+
+Weather icon may show a default cloud if the weather condition is not mapped.
+
+To-Do:
+ Add error handling for API limit exceeded
+
+ Toggle between Celsius and Fahrenheit
+
+ Add weather forecast for the next few days
+
+Author
+Shivani Thakur
