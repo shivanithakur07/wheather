@@ -1,4 +1,4 @@
-const apiKey = "7dc1835d640fb63a944b6467f2928bd7";
+const apiKey = "YOUR_OPENAI_API_KEY";
 
 const weatherIcons = {
     Clear: "https://cdn-icons-png.flaticon.com/512/869/869869.png",
